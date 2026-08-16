@@ -1,1 +1,0 @@
-{% extends "base.html" %}{% block content %}<section class="card auth"><h1>Private Room</h1><p><b>{{room.name}}</b></p><form method="post" action="{{url_for('join_by_link',room_code=room.room_code)}}"><button class="primary">Join Chatroom</button></form></section>{% endblock %}
